@@ -1,6 +1,6 @@
-# 📞 Wavoip - Sistema de Ligações em Massa com Injeção Automática de Áudio
+# 📞 Sistema de Ligações em Massa com Injeção Automática de Áudio
 
-Um frontend moderno e compacto para **disparar ligações em massa** usando a [API Wavoip](https://wavoip.com/), com sistema de injeção automática de áudio em chamadas WhatsApp.
+Um frontend moderno e compacto para **disparar ligações em massa** usando uma API de mercado, com sistema de injeção automática de áudio em chamadas WhatsApp.
 
 ## 🎯 Objetivo Principal
 
@@ -11,9 +11,9 @@ Este projeto foi desenvolvido para **automatizar ligações em massa** através 
 - ✅ **Monitorar todas as ligações** em tempo real
 - ✅ **Escalar operações** de atendimento e marketing
 
-## 🌟 Sobre o Wavoip
+## 🌟 Sobre a Plataforma
 
-O [Wavoip](https://wavoip.com/) é uma plataforma que transforma a experiência do seu atendimento através de chamadas de voz no WhatsApp. É simples, moderno e oferece uma comunicação no WhatsApp com facilidade de uso, flexibilidade e total personalização para se adaptar às suas necessidades.
+Esta é uma plataforma que transforma a experiência do seu atendimento através de chamadas de voz no WhatsApp. É simples, moderno e oferece uma comunicação no WhatsApp com facilidade de uso, flexibilidade e total personalização para se adaptar às suas necessidades.
 
 ### 🚀 **Ideal para Ligações em Massa:**
 - ✅ **API robusta** para automação de milhares de ligações
@@ -53,7 +53,7 @@ O [Wavoip](https://wavoip.com/) é uma plataforma que transforma a experiência 
 ### 🔗 **Links Úteis:**
 - 🌐 **Site Oficial**: [wavoip.com](https://wavoip.com/)
 - 📱 **App Web**: [app.wavoip.com](https://app.wavoip.com/)
-- 📦 **NPM Package**: `npm install wavoip-api`
+- 📦 **NPM Package**: `npm install api-package`
 - 👥 **Comunidade**: [Junte-se ao grupo oficial do WhatsApp](https://wa.me/5521971366137?text=Olá!%20Gostaria%20de%20mais%20informações)
 
 ## ✨ Funcionalidades para Ligações em Massa
@@ -73,7 +73,7 @@ O [Wavoip](https://wavoip.com/) é uma plataforma que transforma a experiência 
 - ✅ **Múltiplas estratégias** de injeção funcionando em paralelo
 
 ### 📞 **Gerenciamento Avançado de Chamadas**
-- ✅ **Inicialização automática** de múltiplos dispositivos Wavoip
+- ✅ **Inicialização automática** de múltiplos dispositivos
 - ✅ **Chamadas em lote** para listas de números
 - ✅ **Monitoramento em tempo real** de todas as ligações simultâneas
 - ✅ **Controle centralizado** - aceitar, rejeitar, finalizar em massa
@@ -103,8 +103,8 @@ O [Wavoip](https://wavoip.com/) é uma plataforma que transforma a experiência 
 ### Instalação
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/wavoip.git
-cd wavoip
+git clone https://github.com/tavaresmirako/Nexzo-BulkWhatsAppCall.git
+cd Nexzo-BulkWhatsAppCall
 
 # Instale as dependências
 npm install
@@ -115,16 +115,16 @@ npm start
 
 O projeto estará disponível em `http://localhost:3000`
 
-### 📦 **Instalação da API Wavoip**
+### 📦 **Instalação da API**
 ```bash
 # Instale o pacote oficial da API
-npm install wavoip-api
+npm install api-package
 ```
 
 ### 🔌 **Exemplo de Uso da API**
 ```javascript
-const Wavoip = require("wavoip-api");
-const WAV = new Wavoip;
+const Api = require("api-package");
+const client = new Api;
 const whatsapp_instance = WAV.connect("my_token");
 
 whatsapp_instance.socket.on("connect", () => {
@@ -287,7 +287,7 @@ REACT_APP_DEBUG_MODE=true
 - Reduza a taxa de disparo se muitos falharem
 
 **3. Limite de dispositivos atingido:**
-- Verifique o plano do Wavoip (Free: 5 ligações/dia)
+- Verifique o plano da plataforma (Free: 5 ligações/dia)
 - Considere upgrade para Enterprise (ilimitado)
 - Distribua as ligações ao longo do dia
 - Use múltiplas contas se necessário
@@ -325,7 +325,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 ## 🙏 Agradecimentos
 
-- **[Wavoip](https://wavoip.com/)** - Plataforma oficial de comunicação WhatsApp com API robusta
+- **Plataforma de API** - Plataforma de comunicação WhatsApp com API robusta
 - **React** - Framework frontend moderno e eficiente
 - **Lucide React** - Ícones modernos e consistentes
 - **React Hot Toast** - Notificações elegantes e não-intrusivas
