@@ -54,7 +54,7 @@ O [Wavoip](https://wavoip.com/) é uma plataforma que transforma a experiência 
 - 🌐 **Site Oficial**: [wavoip.com](https://wavoip.com/)
 - 📱 **App Web**: [app.wavoip.com](https://app.wavoip.com/)
 - 📦 **NPM Package**: `npm install wavoip-api`
-- 👥 **Comunidade**: Junte-se ao grupo oficial
+- 👥 **Comunidade**: [Junte-se ao grupo oficial do WhatsApp](https://wa.me/5521971366137?text=Olá!%20Gostaria%20de%20mais%20informações)
 
 ## ✨ Funcionalidades para Ligações em Massa
 

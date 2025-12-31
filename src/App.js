@@ -2293,13 +2293,13 @@ function App() {
           </div>
           <div className="header-links">
             <a 
-              href="https://chat.whatsapp.com/I01kn65n3CqKFvRIIvQ6hM" 
+              href="https://wa.me/5521971366137?text=Olá!%20Gostaria%20de%20mais%20informações" 
               target="_blank" 
               rel="noopener noreferrer"
               className="header-link whatsapp-link"
             >
               <Phone size={16} style={{ marginRight: '6px' }} />
-              Grupo WhatsApp
+              WhatsApp
             </a>
             <a 
               href="https://nexzo.websys.tec.br/" 
