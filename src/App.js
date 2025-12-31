@@ -2301,6 +2301,15 @@ function App() {
               <Phone size={16} style={{ marginRight: '6px' }} />
               Grupo WhatsApp
             </a>
+            <a 
+              href="https://nexzo.websys.tec.br/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="header-link nexzo-ia-link"
+            >
+              <Shield size={16} style={{ marginRight: '6px' }} />
+              NEXZO IA
+            </a>
 
           </div>
         </div>
