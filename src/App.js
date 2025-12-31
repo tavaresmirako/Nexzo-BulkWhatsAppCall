@@ -2287,10 +2287,7 @@ function App() {
       {/* Top Header Section */}
       <div className="top-header">
         <div className="header-content">
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <img src="/wavoip.png" alt="Nexzo Logo" style={{ width: '40px', height: '40px', borderRadius: '8px' }} />
-            <h1 className="app-title">Nexzo - Ligações em Massa</h1>
-          </div>
+          <h1 className="app-title">Nexzo - Ligações em Massa</h1>
           <div className="header-links">
             <a 
               href="https://chat.whatsapp.com/I01kn65n3CqKFvRIIvQ6hM" 
